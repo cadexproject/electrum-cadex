@@ -1,4 +1,4 @@
-Cadex Electrum - Lightweight Cadexcoin client
+Cadex Electrum - Lightweight Cadex client
 =====================================
 
 ::
