@@ -1,0 +1,19 @@
+include LICENCE RELEASE-NOTES AUTHORS
+include README.rst
+include electrum-cadex.conf.sample
+include electrum-cadex.desktop
+include *.py
+include electrum-cadex
+include contrib/requirements/requirements.txt
+include contrib/requirements/requirements-hw.txt
+recursive-include packages *.py
+recursive-include packages cacert.pem
+include icons.qrc
+graft debian
+graft icons
+
+graft electrum_cadex
+prune electrum_cadex/tests
+
+global-exclude __pycache__
+global-exclude *.py[co]
